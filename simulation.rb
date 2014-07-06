@@ -8,7 +8,7 @@ def wins(p1_throw, p2_throw)
   p1_throw == Throws::ROCK and p2_throw == Throws::SCISSORS or p1_throw == Throws::PAPER and p2_throw == Throws::ROCK or p1_throw == Throws::SCISSORS and p2_throw == Throws::PAPER
 end
 
-TRIALS = 1000
+TRIALS = 100000
 GAME_END_WINS = 5
 results = []
 for trial in (1..TRIALS) do
